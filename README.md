@@ -22,15 +22,15 @@
 
 ##  Project Overview
 
-The **ICC Men's T20 World Cup 2022 Analytics Dashboard** is a multi-page, role-aware Power BI solution built to decode tournament performance data across **42 matches**, **16 teams**, **7 venues**, **213 players**, and **515 wickets**. The platform is structured as a **visual intelligence system** — not merely a reporting tool — designed to support strategic decisions such as squad selection, match-up analysis, and performance benchmarking.
+The **ICC Men's T20 World Cup 2022 Analytics Dashboard** is a multi-page, role-aware Power BI solution built to decode tournament performance data across **42 matches**, **16 teams**, **7 venues**, **213 players**, and **515 wickets**. The platform is structured as a **visual intelligence system** not merely a reporting tool designed to support strategic decisions such as squad selection, match-up analysis, and performance benchmarking.
 
-The dashboard is segmented into **6 purpose-built pages**, each targeting a distinct cricket role category and analytical context. Every page follows a **consistent UX layout philosophy**: a top navigation/filter strip, a KPI ribbon, and a rich charts zone — enabling progressive drill-down from tournament overview to granular player-level statistics.
+The dashboard is segmented into **6 purpose-built pages**, each targeting a distinct cricket role category and analytical context. Every page follows a **consistent UX layout philosophy**: a top navigation/filter strip, a KPI ribbon, and a rich charts zone enabling progressive drill-down from tournament overview to granular player-level statistics.
 
 ###  Business Objectives
 
 | Objective | Description |
 |-----------|-------------|
-| **Performance Benchmarking** | Compare players across key metrics — Strike Rate, Batting Average, Economy, Dot Ball % — filtered by stage and role |
+| **Performance Benchmarking** | Compare players across key metrics <br> — Strike Rate, Batting Average, Economy, Dot Ball % <br> — filtered by stage and role |
 | **Role-Based Selection Intelligence** | Isolate Openers, Middle Order, All Rounders, and Bowlers with role-specific KPIs |
 | **Venue & Stage Analysis** | Understand how runs, wickets, and team totals varied across venues and tournament phases |
 | **Point Table Tracking** | Dynamic standings with live NRR calculation and win/loss records per team |
@@ -49,7 +49,7 @@ The dashboard is segmented into **6 purpose-built pages**, each targeting a dist
 | **Bowlers** | Economy/Wickets by bowler, bowling average scatter |
 | **Stats** | Six chart leaderboards: Top batters, highest scores, best bowling figures |
 
->  Dashboard screenshots are located in `/assets/screenshots/`
+>  [Check the Dashboard screenshots](/Assets/)
 
 ---
 
@@ -186,7 +186,7 @@ Raw CSV/Excel Data
 
 The data model follows a **Star Schema** design pattern — a central fact table surrounded by dimension tables — optimized for Power BI's columnar engine and DAX filter context propagation.
 
-![Data Modelling](Dashboard/Layo)
+![Data Modelling](./Docs/Data-modelling.png)
 
 ### Schema Classification
 
