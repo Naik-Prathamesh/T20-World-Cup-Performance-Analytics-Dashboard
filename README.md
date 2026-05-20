@@ -186,7 +186,7 @@ Raw CSV/Excel Data
 
 The data model follows a **Star Schema** design pattern — a central fact table surrounded by dimension tables — optimized for Power BI's columnar engine and DAX filter context propagation.
 
-![Data Modelling](./Docs/Data-modelling.png)
+![Data Modelling](./Docs/modelling.png)
 
 ### Schema Classification
 
@@ -210,7 +210,7 @@ The data model follows a **Star Schema** design pattern — a central fact table
 
 ##  DAX Measures & Mathematical Formulas
 
->  **Full DAX code reference:** [`/docs/DAX_Measures_and_Calculated_Columns.pdf`](./docs/DAX_Measures_and_Calculated_Columns.pdf)
+>  **Full DAX code reference:** [`/docs/DAX_Measures_and_Calculated_Columns.pdf`](./docs/dax-measures-and-calculated-columns.pdf)
 
 ###  Calculated Columns
 
