@@ -279,37 +279,29 @@ The data model follows a **Star Schema** design pattern — a central fact table
 ```
 T20-World-Cup-Analytics-Dashboard/
 │
-├── 📂 data/
-│   ├── raw/
-│   │   ├── batting_summary.csv
-│   │   ├── bowling_summary.csv
-│   │   ├── match_summary.csv
-│   │   └── players.csv
-│   └── processed/
-│       ├── batting_clean.csv
-│       ├── bowling_clean.csv
-│       ├── match_clean.csv
-│       └── players_clean.csv
+├── 📂 Dashboard/
+│   └── T20_WorldCup_Dashboard.pbix
 │
-├── 📂 notebooks/
-│   └── data_cleaning.ipynb          ← Python EDA & preprocessing notebook
+├── 📂 Dataset/
+│   │── batting_summary.csv
+│   │── bowling_summary.csv
+│   │── match_summary.csv
+│   └── players.csv│
 │
-├── 📂 powerbi/
-│   └── T20_WorldCup_Dashboard.pbix  ← Main Power BI project file
-│
-├── 📂 docs/
-│   ├── DAX_Measures_and_Calculated_Columns.pdf
-│   ├── Data_Modelling.png
+├── 📂 Docs/
+│   ├── dax-measures-nd-calculated-columns.pdf
+│   ├── modelling.png
 │   └── Layout.png
 │
 ├── 📂 assets/
-│   └── screenshots/
-│       ├── 01_Overview.png
-│       ├── 02_Openers.png
-│       ├── 03_Middle_Order.png
-│       ├── 04_All_Rounders.png
-│       ├── 05_Bowlers.png
-│       └── 06_Stats.png
+│  ├── 01_Overview.png
+│  ├── 02_Openers.png
+│  ├── 03_Middle_Order.png
+│  ├── 04_All_Rounders.png
+│  ├── 05_Bowlers.png
+│  └── 06_Stats.png
+│
+├── 📂 /
 │
 └── README.md
 ```
