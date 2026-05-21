@@ -16,7 +16,6 @@
 8. [Setup & Usage Guide](#setup--usage-guide)
 9. [Future Enhancements](#future-enhancements)
 10. [Contributing Guidelines](#contributing-guidelines)
-11. [License](#license)
 
 ---
 
@@ -289,7 +288,7 @@ T20-World-Cup-Analytics-Dashboard/
 │   └── players.csv│
 │
 ├── 📂 Docs/
-│   ├── dax-measures-nd-calculated-columns.pdf
+│   ├── dax-measures-and-calculated-columns.pdf
 │   ├── modelling.png
 │   └── Layout.png
 │
@@ -324,8 +323,7 @@ T20-World-Cup-Analytics-Dashboard/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/T20-World-Cup-Analytics-Dashboard.git
-cd T20-World-Cup-Analytics-Dashboard
+git clone https://github.com/Naik-Prathamesh/T20-World-Cup-Performance-Analytics-Dashboard
 ```
 
 
@@ -339,14 +337,14 @@ cd T20-World-Cup-Analytics-Dashboard
 ### Step 3 — Refresh Data (if needed)
 
 1. In the ribbon, click **Home → Transform Data → Data Source Settings**
-2. Update the file path to your local `/data/processed/` directory
+2. Update the file path to your local directory
 3. Click **Close & Apply**
 4. Click **Refresh** in the Home ribbon to reload all visuals
 
 ### Step 4 — Navigate the Dashboard
 
-- Use the **top navigation bar** to switch between pages: `Group Stage | Playoffs | Super 12 | Overview | Openers | Middle Order | All Rounders | Bowlers | Stats`
-- Use the **Stage slicer** to filter the Overview page by tournament phase
+- Use the **top navigation bar** to switch between pages: `Overview | Openers | Middle Order | All Rounders | Bowlers | Stats`
+- Use the **Stage slicer** `Group Stage | Playoffs | Super 12` to filter the Overview page by tournament phase
 - Click on any team or player in a chart to cross-filter other visuals on the same page
 
 ### Step 5 — Export / Share
@@ -378,7 +376,7 @@ Contributions are welcome and appreciated. Please follow this process:
 
 ### Reporting Issues
 
-1. Search [existing issues](https://github.com/yourusername/T20-World-Cup-Analytics-Dashboard/issues) before opening a new one
+1. Search [existing issues](https://github.com/Naik-Prathamesh/T20-World-Cup-Performance-Analytics-Dashboard) before opening a new one
 2. Use the issue template and tag appropriately (`bug`, `enhancement`, `documentation`)
 
 ### Submitting Pull Requests
@@ -403,12 +401,6 @@ git push origin feature/your-feature-name
 - **DAX measures:** New measures must be documented in `/docs/DAX_Measures_and_Calculated_Columns.pdf` or a `.md` equivalent
 - **Visuals:** Screenshots of new/modified pages must be added to `/assets/screenshots/`
 - **Commit messages:** Follow [Conventional Commits](https://www.conventionalcommits.org/) — `feat:`, `fix:`, `docs:`, `refactor:`
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
