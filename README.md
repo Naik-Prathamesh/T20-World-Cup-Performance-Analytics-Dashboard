@@ -48,7 +48,7 @@ The dashboard is segmented into **6 purpose-built pages**, each targeting a dist
 | **Bowlers** | Economy/Wickets by bowler, bowling average scatter |
 | **Stats** | Six chart leaderboards: Top batters, highest scores, best bowling figures |
 
->  [Check the Dashboard screenshots](/Assets/)
+>  [Check the Dashboard screenshots](./assets/)
 
 ---
 
