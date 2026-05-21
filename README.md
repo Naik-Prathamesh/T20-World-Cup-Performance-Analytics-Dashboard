@@ -300,9 +300,9 @@ T20-World-Cup-Analytics-Dashboard/
 │  ├── 05_Bowlers.png
 │  └── 06_Stats.png
 │
-├── 📂 /
+├── README.md
 │
-└── README.md
+└── T20 WorldCup Analytics Project Report.pdf
 ```
 
 ---
