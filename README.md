@@ -1,4 +1,4 @@
-#  ICC Men's T20 World Cup 2022 — Analytics Intelligence Dashboard
+#  🏏 ICC Men's T20 World Cup 2022 — Analytics Intelligence Dashboard
 
 > **A production-grade Power BI visual intelligence platform engineered for cricket selectors, coaches, and performance analysts — transforming raw match data into actionable, role-specific insights across 6 specialized analytical pages.**
 
@@ -19,13 +19,13 @@
 
 ---
 
-##  Project Overview
+## 🧠 Project Overview
 
 The **ICC Men's T20 World Cup 2022 Analytics Dashboard** is a multi-page, role-aware Power BI solution built to decode tournament performance data across **42 matches**, **16 teams**, **7 venues**, **213 players**, and **515 wickets**. The platform is structured as a **visual intelligence system** not merely a reporting tool designed to support strategic decisions such as squad selection, match-up analysis, and performance benchmarking.
 
 The dashboard is segmented into **6 purpose-built pages**, each targeting a distinct cricket role category and analytical context. Every page follows a **consistent UX layout philosophy**: a top navigation/filter strip, a KPI ribbon, and a rich charts zone enabling progressive drill-down from tournament overview to granular player-level statistics.
 
-###  Business Objectives
+### 🎯 Business Objectives
 
 | Objective | Description |
 |-----------|-------------|
@@ -37,7 +37,7 @@ The dashboard is segmented into **6 purpose-built pages**, each targeting a dist
 
 ---
 
-##  Live Dashboard Preview
+## 📸 Live Dashboard Preview
 
 | Page | Description |
 |------|-------------|
@@ -52,7 +52,7 @@ The dashboard is segmented into **6 purpose-built pages**, each targeting a dist
 
 ---
 
-##  Key Dashboard Features
+## 📊 Key Dashboard Features
 
 ###  Page 1 — Tournament Overview
 
@@ -145,7 +145,7 @@ A **six-panel statistical showcase** — the tournament's definitive record page
 
 ---
 
-##  Tech Stack & Workflow
+## ⚙️ Tech Stack & Workflow
 
 ```
 Raw CSV/Excel Data
@@ -181,7 +181,7 @@ Raw CSV/Excel Data
 
 ---
 
-##  Data Modeling & Architecture
+## 🗄️ Data Modeling & Architecture
 
 The data model follows a **Star Schema** design pattern — a central fact table surrounded by dimension tables — optimized for Power BI's columnar engine and DAX filter context propagation.
 
@@ -207,9 +207,9 @@ The data model follows a **Star Schema** design pattern — a central fact table
 
 ---
 
-##  DAX Measures & Mathematical Formulas
+## 🧮 DAX Measures & Mathematical Formulas
 
->  **Full DAX code reference:** [Check](./Docs/dax-measures-and-calculated-columns.pdf)
+>  📄 **Full DAX code reference:** [Check](./Docs/dax-measures-and-calculated-columns.pdf)
 
 ###  Calculated Columns
 
@@ -355,7 +355,7 @@ git clone https://github.com/Naik-Prathamesh/T20-World-Cup-Performance-Analytics
 
 ---
 
-##  Future Enhancements
+## 🔮 Future Enhancements
 
 | Priority | Enhancement | Description |
 |----------|-------------|-------------|
