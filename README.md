@@ -210,7 +210,7 @@ The data model follows a **Star Schema** design pattern — a central fact table
 
 ##  DAX Measures & Mathematical Formulas
 
->  **Full DAX code reference:** [Check](./docs/dax-measures-and-calculated-columns.pdf)
+>  **Full DAX code reference:** [Check](./Docs/dax-measures-and-calculated-columns.pdf)
 
 ###  Calculated Columns
 
