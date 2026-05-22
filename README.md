@@ -293,12 +293,12 @@ T20-World-Cup-Analytics-Dashboard/
 │   └── Layout.png
 │
 ├── 📂 assets/
-│   ├── 01_Overview.png
-│   ├── 02_Openers.png
-│   ├── 03_Middle_Order.png
-│   ├── 04_All_Rounders.png
-│   ├── 05_Bowlers.png
-│   └── 06_Stats.png
+│   ├── 01_Overview.jpg
+│   ├── 02_Openers.jpg
+│   ├── 03_Middle_Order.jpg
+│   ├── 04_All_Rounders.jpg
+│   ├── 05_Bowlers.jpg
+│   └── 06_Stats.jpg
 │
 ├── README.md
 │
