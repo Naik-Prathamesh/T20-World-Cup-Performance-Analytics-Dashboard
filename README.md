@@ -48,7 +48,7 @@ The dashboard is segmented into **6 purpose-built pages**, each targeting a dist
 | **Bowlers** | Economy/Wickets by bowler, bowling average scatter |
 | **Stats** | Six chart leaderboards: Top batters, highest scores, best bowling figures |
 
->  [Check the Dashboard screenshots](./assets/)
+>  [Check the Dashboard screenshots](./Screenshots/)
 
 ---
 
@@ -292,7 +292,7 @@ T20-World-Cup-Analytics-Dashboard/
 │   ├── modelling.png
 │   └── Layout.png
 │
-├── 📂 assets/
+├── 📂 Screenshots/
 │   ├── 01_Overview.jpg
 │   ├── 02_Openers.jpg
 │   ├── 03_Middle_Order.jpg
