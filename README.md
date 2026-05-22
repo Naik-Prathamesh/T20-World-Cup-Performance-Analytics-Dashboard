@@ -285,7 +285,7 @@ T20-World-Cup-Analytics-Dashboard/
 │   │── batting_summary.csv
 │   │── bowling_summary.csv
 │   │── match_summary.csv
-│   └── players.csv│
+│   └── players.csv
 │
 ├── 📂 Docs/
 │   ├── dax-measures-and-calculated-columns.pdf
